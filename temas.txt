@@ -1,0 +1,16 @@
+- Host Element:
+- Content Projection
+- Input Signals
+- @HostBindings
+- ViewEncapsulation
+- Output Signals
+- Viewchild Signals
+- @HostListener
+- Testing
+- Karma Jasmine
+- Mocks
+- Angular SSR
+- SEO Friendly
+- Deploy Netlify
+- SEO Tags
+- Http requests
