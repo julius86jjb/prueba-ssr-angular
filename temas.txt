@@ -14,3 +14,4 @@
 - Deploy Netlify
 - SEO Tags
 - Http requests
+- Static Site Generation (SSG) - Prerendering
