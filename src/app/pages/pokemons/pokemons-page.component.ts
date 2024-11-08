@@ -62,11 +62,13 @@ export default class PokemonsPageComponent implements OnInit {
       .pipe(
         tap(() => console.log('pipe')),
         tap(() => this.router.navigate([], {queryParams: {page: pageToLoad}})),
-        tap(() => this.title.setTitle(`Pokemons SSR - Page ${pageToLoad}`))
+        tap(() => this.title.setTitle(`Pokemons SSR - Page ${pageToLoad}`)),
+        tap(() => console.log(this.pokemons())),
       )
       .subscribe(pokemons => {
         console.log('subscribe');
         this.pokemons.set(pokemons);
+        console.log(this.pokemons())
       })
   }
 
